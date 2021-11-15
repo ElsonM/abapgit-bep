@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_AOA_DEMO2</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>ABAP Objects Advanced: Sales Order changes</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>M01</KEY>
+     <ENTRY>Locking sales order .....</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M02</KEY>
+     <ENTRY>Sales order locked .....</ENTRY>
+     <LENGTH>48</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M03</KEY>
+     <ENTRY>Reading sales order .....</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M04</KEY>
+     <ENTRY>Sales order data retrieved .....</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M05</KEY>
+     <ENTRY>Changing PO date .....</ENTRY>
+     <LENGTH>44</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M06</KEY>
+     <ENTRY>Old value =</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M07</KEY>
+     <ENTRY>New value =</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M08</KEY>
+     <ENTRY>Changing PO number .....</ENTRY>
+     <LENGTH>48</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M10</KEY>
+     <ENTRY>Unlocking sales order .....</ENTRY>
+     <LENGTH>54</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M11</KEY>
+     <ENTRY>Processing complete!</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M12</KEY>
+     <ENTRY>Change to sales order saved .....</ENTRY>
+     <LENGTH>66</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M13</KEY>
+     <ENTRY>CLEANUP after exception</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M14</KEY>
+     <ENTRY>RESUME after exception</ENTRY>
+     <LENGTH>100</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M15</KEY>
+     <ENTRY>RETRY after exception</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>M01</KEY>
+       <ENTRY>Locking sales order .....</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>M02</KEY>
+       <ENTRY>Sales order locked .....</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>M03</KEY>
+       <ENTRY>Reading sales order .....</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>M04</KEY>
+       <ENTRY>Sales order data retrieved .....</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>M05</KEY>
+       <ENTRY>Changing PO date .....</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>M06</KEY>
+       <ENTRY>Old value =</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>M07</KEY>
+       <ENTRY>New value =</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>M08</KEY>
+       <ENTRY>Changing PO number .....</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>M10</KEY>
+       <ENTRY>Unlocking sales order .....</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>M11</KEY>
+       <ENTRY>Processing complete!</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>M12</KEY>
+       <ENTRY>Change to sales order saved .....</ENTRY>
+       <LENGTH>66</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AOA_DEMO2</CLSNAME>
+     <CMPNAME>CHANGE_ORDER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change sales order data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AOA_DEMO2</CLSNAME>
+     <CMPNAME>CHECK_PO_DATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check validity of new date</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AOA_DEMO2</CLSNAME>
+     <CMPNAME>LOCK_ORDER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Lock sales order data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AOA_DEMO2</CLSNAME>
+     <CMPNAME>READ_SALES_ORDER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read sales order data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AOA_DEMO2</CLSNAME>
+     <CMPNAME>UNLOCK_ORDER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Unlock sales order data</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

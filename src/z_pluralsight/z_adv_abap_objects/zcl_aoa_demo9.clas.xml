@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_AOA_DEMO9</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>ABAP Objects Advanced Programming: Dynamic data objects</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>E01</KEY>
+     <ENTRY>Dictionary object not found:</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E02</KEY>
+     <ENTRY>No data found in table</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AOA_DEMO9</CLSNAME>
+     <CMPNAME>COMP_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Component type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AOA_DEMO9</CLSNAME>
+     <CMPNAME>MC_COMP_TYPE_FIELD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constant value for Field</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AOA_DEMO9</CLSNAME>
+     <CMPNAME>MC_COMP_TYPE_STRUCT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constant value for Structure</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

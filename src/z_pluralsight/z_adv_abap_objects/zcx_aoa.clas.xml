@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCX_AOA</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>ABAP Objects Advanced Programming: Exceptions</DESCRIPT>
+    <CATEGORY>40</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <MSG_ID>ZAOA</MSG_ID>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCX_AOA</CLSNAME>
+     <CMPNAME>ADDRESS_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Address number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCX_AOA</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCX_AOA</CLSNAME>
+     <CMPNAME>EMPLOYEE_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Personnel Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCX_AOA</CLSNAME>
+     <CMPNAME>LONG_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Long message text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCX_AOA</CLSNAME>
+     <CMPNAME>SALES_ORDER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sales Document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCX_AOA</CLSNAME>
+     <CMPNAME>SHORT_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Short message text</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

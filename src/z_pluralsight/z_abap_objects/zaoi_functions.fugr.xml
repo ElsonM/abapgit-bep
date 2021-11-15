@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Function group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZAOI_FUNCTIONSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZAOI_FUNCTIONS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_AOI_DEMO1</FUNCNAME>
+     <SHORT_TEXT>Function module 1</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_TEXT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TEXT10</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_NUMBER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>INT1</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_OUTPUT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TEXT25</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_TEXT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Text (10 Characters)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_NUMBER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Dummy for B20 int1 (Local Everywhere)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_OUTPUT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Text length 25</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

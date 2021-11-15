@@ -1,0 +1,49 @@
+*&---------------------------------------------------------------------*
+*& Report Z12_TABSTRIP
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+REPORT z12_tabstrip.
+
+TABLES: sscrfields.
+
+SELECTION-SCREEN FUNCTION KEY 1.
+SELECTION-SCREEN FUNCTION KEY 2.
+SELECTION-SCREEN FUNCTION KEY 3.
+
+SELECTION-SCREEN BEGIN OF SCREEN 100 AS SUBSCREEN.
+  SELECTION-SCREEN BEGIN OF BLOCK block1 WITH FRAME TITLE TEXT-001.
+    PARAMETERS country TYPE pa0002-gblnd AS LISTBOX VISIBLE LENGTH 20
+    USER-COMMAND coun DEFAULT 'US'.
+  SELECTION-SCREEN END OF BLOCK block1.
+SELECTION-SCREEN END OF SCREEN 100.
+
+SELECTION-SCREEN BEGIN OF SCREEN 101 AS SUBSCREEN.
+  SELECTION-SCREEN BEGIN OF BLOCK block2 WITH FRAME TITLE TEXT-002.
+    PARAMETERS country2 TYPE pa0002-gblnd AS LISTBOX VISIBLE LENGTH 20
+    USER-COMMAND cou2 DEFAULT 'CA'.
+  SELECTION-SCREEN END OF BLOCK block2.
+SELECTION-SCREEN END OF SCREEN 101.
+
+SELECTION-SCREEN BEGIN OF TABBED BLOCK t1 FOR 20 LINES.
+  SELECTION-SCREEN TAB (20) tab1 USER-COMMAND ucomm1 DEFAULT SCREEN 100.
+  SELECTION-SCREEN TAB (20) tab2 USER-COMMAND ucomm2 DEFAULT SCREEN 101.
+SELECTION-SCREEN END OF BLOCK t1.
+
+INITIALIZATION.
+  tab1 = 'Tab 1'.
+  tab2 = 'Tab 2'.
+
+  sscrfields-functxt_01  = 'ABAP Editor'.
+  sscrfields-functxt_02  = 'Object Navigator'.
+  sscrfields-functxt_03  = 'Business Workplace'.
+
+AT SELECTION-SCREEN.
+  CASE sscrfields-ucomm.
+    WHEN 'FC01'.
+      CALL TRANSACTION 'SE38'.
+    WHEN 'FC02'.
+      CALL TRANSACTION 'SE80'.
+    WHEN 'FC03'.
+      CALL TRANSACTION 'SBWP'.
+  ENDCASE.

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SCVI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SCVI>
+    <SHDSVCI>
+     <SCVARIANT>Z_SU01_SIMPLIFIED_1050</SCVARIANT>
+     <PROGNAME>SAPLSUID_MAINTENANCE</PROGNAME>
+     <DYNPRO>1050</DYNPRO>
+     <VERSION>7</VERSION>
+    </SHDSVCI>
+    <SHDSVTXCI>
+     <SHDSVTXCI>
+      <LANGU>E</LANGU>
+      <SCVARIANT>Z_SU01_SIMPLIFIED_1050</SCVARIANT>
+      <SCVTEXT>Initial Screen</SCVTEXT>
+     </SHDSVTXCI>
+    </SHDSVTXCI>
+    <SHDSVFVCI>
+     <SHDSVFVCI>
+      <SCVARIANT>Z_SU01_SIMPLIFIED_1050</SCVARIANT>
+      <FIELDNAME>SUID_ST_NODE_LOGONDATA-USERALIAS</FIELDNAME>
+      <ITYPE>C</ITYPE>
+     </SHDSVFVCI>
+    </SHDSVFVCI>
+   </SCVI>
+  </asx:values>
+ </asx:abap>
+</abapGit>

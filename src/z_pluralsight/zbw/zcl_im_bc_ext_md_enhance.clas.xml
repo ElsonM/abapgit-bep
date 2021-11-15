@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_IM_BC_EXT_MD_ENHANCE</CLSNAME>
+    <LANGU>I</LANGU>
+    <DESCRIPT>Classe di imp. per imp. BAdI ZBC_EXT_MD_ENHANCE</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_IM_BC_EXT_MD_ENHANCE</CLSNAME>
+     <CMPNAME>_TEMPLATE_DATASOURCE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Template to be copied for each new enhancement</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

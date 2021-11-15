@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>Z12_TRANS</TCODE>
+    <PGMNA>Z12_TABLE_CONTROL_UPLOAD</PGMNA>
+    <DYPNO>9000</DYPNO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>Z12_TRANS</TCODE>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>E</SPRSL>
+    <TCODE>Z12_TRANS</TCODE>
+    <TTEXT>Table Control with Upload</TTEXT>
+   </TSTCT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

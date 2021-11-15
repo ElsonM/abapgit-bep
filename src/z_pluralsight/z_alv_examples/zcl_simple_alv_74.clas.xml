@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_SIMPLE_ALV_74</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Simplified Version of the CL_SALV_TABLE class - ABAP 7.4</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SIMPLE_ALV_74</CLSNAME>
+     <CMPNAME>CUSTOMIZE_ALV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>This method is responsible for decorating the ALV list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SIMPLE_ALV_74</CLSNAME>
+     <CMPNAME>HIDE_COLUMNS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>This method hides the unneccessary columns</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SIMPLE_ALV_74</CLSNAME>
+     <CMPNAME>OPTIMIZE_COLUMN_WIDTH</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>This method optimizes the column width based on the content</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SIMPLE_ALV_74</CLSNAME>
+     <CMPNAME>SET_TOOLBAR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>This method sets the Application Toolbar above the list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SIMPLE_ALV_74</CLSNAME>
+     <CMPNAME>SET_ZEBRA_MODE_AND_TITLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>This method sets the zebra pattern mode and the title</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SIMPLE_ALV_74</CLSNAME>
+     <CMPNAME>_ALV_OBJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>It&apos;s an object reference variable for CL_SALV_TABLE class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SIMPLE_ALV_74</CLSNAME>
+     <CMPNAME>_FIELDS_TO_BE_HIDDEN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>List of fields to be hidden separated by semicolons</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SIMPLE_ALV_74</CLSNAME>
+     <CMPNAME>_TITLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>This title will be displayed above the list</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

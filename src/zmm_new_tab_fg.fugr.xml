@@ -1,0 +1,2967 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Subscreens for the material master</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LMGD1F01</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F02</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F03</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F04</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F05</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F06</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F07</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F08</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F09</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0A</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0B</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0C</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0D</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0E</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0F</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0G</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0H</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0I</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0J</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0K</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0L</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0M</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0N</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0O</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0P</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0Q</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0R</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0S</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0T</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0U</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0V</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0W</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0X</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0Y</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F0Z</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F10</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F11</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F12</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F13</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F14</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F15</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F16</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F17</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F18</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F19</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1A</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1B</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1C</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1D</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1E</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1F</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1G</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1H</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1I</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1J</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1K</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1L</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1M</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1N</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1O</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1P</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1Q</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1R</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1S</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1T</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1U</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1V</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1W</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1X</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1Y</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F1Z</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F20</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F21</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F22</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F23</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F24</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F25</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F26</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F27</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F28</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F29</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F2A</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F2B</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F2C</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F2D</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F2E</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F2F</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F2G</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F2H</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F2I</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1F2J</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1FHX</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1FSC</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1FXX</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1FYY</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I01</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I02</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I03</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I04</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I05</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I06</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I07</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I08</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I09</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0A</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0B</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0C</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0D</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0E</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0F</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0G</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0H</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0I</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0J</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0K</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0L</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0M</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0N</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0O</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0P</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0Q</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0R</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0S</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0T</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0U</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0V</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0W</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0X</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0Y</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I0Z</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I10</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I11</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I12</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I13</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I14</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I15</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I17</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I18</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I19</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1A</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1B</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1C</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1D</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1E</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1F</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1G</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1H</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1I</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1J</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1K</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1L</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1M</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1N</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1O</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1P</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1Q</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1R</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1S</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1T</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1U</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1V</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1W</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1X</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1Y</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I1Z</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I20</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I21</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I22</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I23</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I24</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I25</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I26</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I27</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I28</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I29</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2A</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2B</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2C</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2D</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2E</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2F</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2G</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2H</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2I</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2J</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2K</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2L</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2M</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2N</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2O</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2P</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2Q</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2R</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2S</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2T</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2U</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2V</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2W</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2X</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2Y</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I2Z</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I30</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I31</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I32</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I33</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I34</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I35</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I36</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I37</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I38</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I39</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3A</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3B</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3C</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3D</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3E</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3F</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3G</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3H</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3I</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3J</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3K</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3L</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3M</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3N</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3O</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3P</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3Q</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3R</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3S</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3T</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3U</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3V</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3W</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3X</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3Y</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I3Z</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I40</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I41</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I42</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I43</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I44</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I45</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I46</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I47</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I48</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I49</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4A</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4B</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4C</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4D</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4E</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4F</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4G</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4H</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4I</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4J</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4K</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4L</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4M</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4N</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4O</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4P</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4Q</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4R</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4S</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4T</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4U</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4V</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4W</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4X</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4Y</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I4Z</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I50</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I51</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I52</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I53</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I54</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I55</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I56</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I57</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I58</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I59</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5A</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5B</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5C</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5D</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5E</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5F</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5G</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5H</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5I</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5J</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5K</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5L</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5M</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5N</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5O</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5P</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5Q</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5R</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5S</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5T</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5U</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5V</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5W</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5X</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5Y</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I5Z</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I60</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I61</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I62</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I64</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I65</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I66</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I67</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I68</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I69</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6A</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6B</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6C</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6D</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6E</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6F</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6G</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6H</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6I</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6J</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6K</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6L</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6M</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6N</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6O</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6P</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6Q</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6R</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6S</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6T</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6U</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6V</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6W</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6X</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6Y</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I6Z</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I70</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I71</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I72</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I73</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I74</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I75</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I76</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I77</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I78</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I79</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7A</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7B</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7C</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7D</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7E</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7F</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7G</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7H</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7I</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7J</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7K</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7L</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7M</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7N</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7O</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7P</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7Q</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7R</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7S</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7T</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7U</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1I7V</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1IHX</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1IV0</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1IXX</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1IYY</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O01</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O02</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O03</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O04</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O05</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O06</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O07</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O08</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O09</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0A</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0B</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0C</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0D</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0E</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0F</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0G</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0H</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0I</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0J</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0K</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0L</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0M</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0N</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0O</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0P</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0Q</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0R</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0S</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0U</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0V</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0W</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0X</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O0Y</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O10</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O11</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O12</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O13</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O14</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O15</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O16</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O17</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O18</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O19</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O1A</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O1B</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O1C</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O1D</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O1E</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O1F</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O1G</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O1H</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O1I</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O1J</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1O1K</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1OV0</SOBJ_NAME>
+    <SOBJ_NAME>LMGD1OXX</SOBJ_NAME>
+    <SOBJ_NAME>LMGMMFHX</SOBJ_NAME>
+    <SOBJ_NAME>LMGMMHLP</SOBJ_NAME>
+    <SOBJ_NAME>LMGMMXVA</SOBJ_NAME>
+    <SOBJ_NAME>LZMM_NEW_TAB_FGTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZMM_NEW_TAB_FG</SOBJ_NAME>
+   </INCLUDES>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Wollen Sie unwiderruflich</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Werksdaten für Versionen zulassen?</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Verwaltung Pflegeschalter</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Sprache</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>nicht nutzbar auf Rechner</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Merkmale</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>030</KEY>
+       <ENTRY>Löschen Mengeneinheit</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>031</KEY>
+       <ENTRY>Möchten Sie die Mengeneinheit</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>032</KEY>
+       <ENTRY>trotzdem löschen?</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>033</KEY>
+       <ENTRY>Zur Mengeneinheit wurden bereits</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>034</KEY>
+       <ENTRY>Texte erfaßt.</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>035</KEY>
+       <ENTRY>Zur Mengeneinheit wurden bereits</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>036</KEY>
+       <ENTRY>Layoutbausteine erfaßt.</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>037</KEY>
+       <ENTRY>Zur Mengeneinheit wurden bereits</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>038</KEY>
+       <ENTRY>EANs erfaßt.</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>039</KEY>
+       <ENTRY>Zur Mengeneinheit wurde bereits</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>040</KEY>
+       <ENTRY>eine EAN erfaßt.</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>041</KEY>
+       <ENTRY>Die Mengeneinheit wird noch als</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>042</KEY>
+       <ENTRY>Bestellmengeneinheit verwendet.</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>043</KEY>
+       <ENTRY>Die Mengeneinheit wird in Info-</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>044</KEY>
+       <ENTRY>sätzen als BestellME verwendet.</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>045</KEY>
+       <ENTRY>sätzen als BestellpreisME verwendet.</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>050</KEY>
+       <ENTRY>Ändern Bestellmengeneinheit</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>051</KEY>
+       <ENTRY>Möchten Sie die Mengeneinheit</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>052</KEY>
+       <ENTRY>auch in den Infosätzen ändern?</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>053</KEY>
+       <ENTRY>Ändern BestellpreisME</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>063</KEY>
+       <ENTRY>Ungeplant. Verbrauch</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>064</KEY>
+       <ENTRY>Gesamtverbrauch</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>065</KEY>
+       <ENTRY>Korrigierter Wert</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>070</KEY>
+       <ENTRY>Löschen EAN</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>071</KEY>
+       <ENTRY>Alle Lieferantenbezüge müssen mit-</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>072</KEY>
+       <ENTRY>gelöscht werden!  EAN löschen?</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>073</KEY>
+       <ENTRY>Ändern EAN</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>074</KEY>
+       <ENTRY>Alle Lieferantenbezüge müssen mit-</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>075</KEY>
+       <ENTRY>geändert werden!  EAN ändern?</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>076</KEY>
+       <ENTRY>Formatiert</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>077</KEY>
+       <ENTRY>Folgende Sprachen enthalten leere Texte</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>078</KEY>
+       <ENTRY>und werden gelöscht:</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>079</KEY>
+       <ENTRY>Keine Sprachen gepflegt (Anlage über Drucktaste)</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>080</KEY>
+       <ENTRY>Schichtung zukünftig</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>081</KEY>
+       <ENTRY>Schichtung laufend</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>082</KEY>
+       <ENTRY>Schichtung vergangen</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>083</KEY>
+       <ENTRY>Periode zukünftig</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>084</KEY>
+       <ENTRY>Periode laufend</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>085</KEY>
+       <ENTRY>Periode vergangen</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>086</KEY>
+       <ENTRY>Geschäftsjahr zukünftig</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>087</KEY>
+       <ENTRY>Geschäftsjahr laufend</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>088</KEY>
+       <ENTRY>Geschäftsjahr vergangen</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>089</KEY>
+       <ENTRY>Bewertungsvariante zukünftig</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>090</KEY>
+       <ENTRY>Bewertungsvariante laufend</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>091</KEY>
+       <ENTRY>Bewertungsvariante vergangen</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>092</KEY>
+       <ENTRY>Kalkulationsversion zukünftig</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>093</KEY>
+       <ENTRY>Kalkulationsversion laufend</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>094</KEY>
+       <ENTRY>Kalkulationsversion vergangen</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>095</KEY>
+       <ENTRY>Planpreis zukünftig</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>096</KEY>
+       <ENTRY>Planpreis laufend</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>097</KEY>
+       <ENTRY>Planpreis vergangen</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>098</KEY>
+       <ENTRY>Standardpreis zukünftig</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>099</KEY>
+       <ENTRY>Standardpreis laufend</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>100</KEY>
+       <ENTRY>Standardpreis vergangen</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>110</KEY>
+       <ENTRY>Sollen die Werte auf die Varianten</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>111</KEY>
+       <ENTRY>durchkopiert werden, wenn keine</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>112</KEY>
+       <ENTRY>Abweichungen bestehen?</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>113</KEY>
+       <ENTRY>Variantenanpassung</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>114</KEY>
+       <ENTRY>Bei &apos;NEIN&apos; werden Abweichungen zwischen</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>115</KEY>
+       <ENTRY>Sammelartikel und Variante erzeugt!</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>500</KEY>
+       <ENTRY>Material ist fixiert</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>501</KEY>
+       <ENTRY>Material ist nicht fixiert</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>502</KEY>
+       <ENTRY>Sprache selektieren</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>503</KEY>
+       <ENTRY>Sprache</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>504</KEY>
+       <ENTRY>Sprache des dargestellten Textes</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>505</KEY>
+       <ENTRY>Steuerschlüssel nicht änderbar</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>506</KEY>
+       <ENTRY>Vorlagenschlüssel nicht änderbar</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>507</KEY>
+       <ENTRY>Formel zur Berechnung der Gesamtmenge nicht änderbar</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>508</KEY>
+       <ENTRY>Formel zur Berechnung des Gesamteinsatzwertes nicht änderbar</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>509</KEY>
+       <ENTRY>Bezugstermin Start nicht änderbar</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>510</KEY>
+       <ENTRY>Zeitabstand Start nicht änderbar</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>511</KEY>
+       <ENTRY>Bezugstermin Ende nicht änderbar</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>512</KEY>
+       <ENTRY>Zeitabstand Ende nicht änderbar</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>513</KEY>
+       <ENTRY>Text zum Steuerschlüssel</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>514</KEY>
+       <ENTRY>Text zum Vorlagenschlüssel</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>515</KEY>
+       <ENTRY>Kurzbezeichnung Formel zur Berechnung Menge</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>516</KEY>
+       <ENTRY>Kurzbezeichnung Formel Berechnung EWert</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>517</KEY>
+       <ENTRY>Text zum Bezug Start</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>518</KEY>
+       <ENTRY>Text zum Bezug Ende</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>519</KEY>
+       <ENTRY>Langtext</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>520</KEY>
+       <ENTRY>Gepflegte Sprachen</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>521</KEY>
+       <ENTRY>Vorschlagslagerort für Fremdbeschaffung</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>522</KEY>
+       <ENTRY>Bestandsfindungsgruppe</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>523</KEY>
+       <ENTRY>Bedarfsvorlaufszeit/Ist-Reichweite</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>524</KEY>
+       <ENTRY>Bewertungsklasse für Kundenauftragsbestand</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>525</KEY>
+       <ENTRY>Bewertungsklasse für Projektbestand</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>526</KEY>
+       <ENTRY>Normbezeichnung</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>527</KEY>
+       <ENTRY>Änderungsnummer des Dokuments (ohne Dokumentenverwaltungssystem)</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>528</KEY>
+       <ENTRY>Kennzeichen: Material ist naturalrabattfähig</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>529</KEY>
+       <ENTRY>Kennzeichen: Genehmigtes Chargenprotokoll ist erforderlich</ENTRY>
+       <LENGTH>65</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>530</KEY>
+       <ENTRY>Verteilungsprofil des Materials im Werk</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>531</KEY>
+       <ENTRY>Nachschubparameter externe Kunden</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>532</KEY>
+       <ENTRY>Statistische Warennummer/Import-Code-Nr. für Außenhandel</ENTRY>
+       <LENGTH>65</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>533</KEY>
+       <ENTRY>Ausstellungsdatum der Negativbescheinigung</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>534</KEY>
+       <ENTRY>Kennzeichen für Ursprungschargenführung</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>535</KEY>
+       <ENTRY>Referenzmaterial für Ursprungschargen</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>536</KEY>
+       <ENTRY>Bearbeitungszeit für Wareneingang in Tagen</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>537</KEY>
+       <ENTRY>Verrechnungsintervall vorwärts</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>538</KEY>
+       <ENTRY>Vorplanungsumrechnungsfaktor</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>539</KEY>
+       <ENTRY>Verrechnungsintervall rückwärts</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>540</KEY>
+       <ENTRY>Basismengeneinheit des  Vorplanungsmaterials</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>541</KEY>
+       <ENTRY>Auslaufdatum</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>542</KEY>
+       <ENTRY>Dispositionsrelevanz für abhängige Bedarfe</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>543</KEY>
+       <ENTRY>Bezugsmaterial Verbrauch</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>544</KEY>
+       <ENTRY>Bezugswerk Verbrauch</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>545</KEY>
+       <ENTRY>Anzahl der Vergangenheitsperioden</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>546</KEY>
+       <ENTRY>Werksspezifischer Materialstatus</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>547</KEY>
+       <ENTRY>Produktionslagerort</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>548</KEY>
+       <ENTRY>Kennzeichen für Ursprungschargenführung</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>549</KEY>
+       <ENTRY>Referenzmaterial für Ursprungschargen</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>550</KEY>
+       <ENTRY>Kennzeichen: Genehmigtes Chargenprotokoll ist erforderlich</ENTRY>
+       <LENGTH>65</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>551</KEY>
+       <ENTRY>Toleranzgrenze für Unterlieferung</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>552</KEY>
+       <ENTRY>Toleranzgrenze für Überlieferung</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>553</KEY>
+       <ENTRY>Kennzeichen: unbegrenzte Überlieferung erlaubt</ENTRY>
+       <LENGTH>60</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>554</KEY>
+       <ENTRY>Eigenfertigungszeit</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>555</KEY>
+       <ENTRY>Menge der zu druckenden Begleitscheine</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>556</KEY>
+       <ENTRY>Etikettierungsform</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>557</KEY>
+       <ENTRY>Mindestrestlaufzeit</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>558</KEY>
+       <ENTRY>Periodenkennzeichen für MHD</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>559</KEY>
+       <ENTRY>Bestandskorrekturfaktor</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>560</KEY>
+       <ENTRY>Stücklistenalternative</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>561</KEY>
+       <ENTRY>Stücklistenverwendung</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>562</KEY>
+       <ENTRY>Sonderbeschaffungsart für die Kalkulation</ENTRY>
+       <LENGTH>60</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>563</KEY>
+       <ENTRY>Fehler bei Logistikschalterpflege</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>564</KEY>
+       <ENTRY>Werksdaten in Versionen</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>565</KEY>
+       <ENTRY>keine Werksdaten in Versionen</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>566</KEY>
+       <ENTRY>Pflegeschalter (MARC) nicht da</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>567</KEY>
+       <ENTRY>Dispodaten fehlen</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>801</KEY>
+       <ENTRY>Material fixiert</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V02</KEY>
+       <ENTRY>Version</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V03</KEY>
+       <ENTRY>Kopfmat.</ENTRY>
+       <LENGTH>8</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V06</KEY>
+       <ENTRY>Immer gültig</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V07</KEY>
+       <ENTRY>Gültigkeit anzeigen</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V08</KEY>
+       <ENTRY>Gültigkeit ändern</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V09</KEY>
+       <ENTRY>Defaultversion festlegen</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V10</KEY>
+       <ENTRY>Defaultversion anzeigen</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V11</KEY>
+       <ENTRY>Aktiv?</ENTRY>
+       <LENGTH>6</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V12</KEY>
+       <ENTRY>Logistikschalter ist an</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V13</KEY>
+       <ENTRY>Logistikschalter ist aus</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V14</KEY>
+       <ENTRY>Logistikschalter inaktiv</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V15</KEY>
+       <ENTRY>Logistikschalter pflegen</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V16</KEY>
+       <ENTRY>Log.schalter Versionen. anz.</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V17</KEY>
+       <ENTRY>Log.schalter? (Werk ungenannt)</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Autorizzare dati divis.</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>per versioni in modo irrevocabile?</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Gestione switch aggiorn.</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Lingua</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>non util. su elaboratore</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Caratteristiche</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>030</KEY>
+       <ENTRY>Canc. unità di misura</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>031</KEY>
+       <ENTRY>Cancellare comunque l&apos;UM?</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>032</KEY>
+       <ENTRY>---</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>033</KEY>
+       <ENTRY>Sono già stati acquisiti testi</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>034</KEY>
+       <ENTRY>per l&apos;UM</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>035</KEY>
+       <ENTRY>Sono già stati acquisiti moduli</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>036</KEY>
+       <ENTRY>layout per l&apos;UM</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>037</KEY>
+       <ENTRY>Sono già stati acquisiti EAN</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>038</KEY>
+       <ENTRY>per l&apos;UM</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>039</KEY>
+       <ENTRY>E&apos; già stato acquisito un EAN</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>040</KEY>
+       <ENTRY>per UM.</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>041</KEY>
+       <ENTRY>L&apos;UM viene ancora impiegata</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>042</KEY>
+       <ENTRY>come utà ordine d&apos;acquisto</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>043</KEY>
+       <ENTRY>L&apos;UM viene utilizzata</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>044</KEY>
+       <ENTRY>come UM OdA nei record info.</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>045</KEY>
+       <ENTRY>come UM prezzo ordine d&apos;acquisto.</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>050</KEY>
+       <ENTRY>Mod. utà ordine d&apos;acquisto</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>051</KEY>
+       <ENTRY>Modificare l&apos;unità misura</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>052</KEY>
+       <ENTRY>anche nei record info?</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>053</KEY>
+       <ENTRY>Mod. UM prz.ord.acq.</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>063</KEY>
+       <ENTRY>Consumo non pian.</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>064</KEY>
+       <ENTRY>Consumo totale</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>065</KEY>
+       <ENTRY>Valore corretto</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>070</KEY>
+       <ENTRY>Canc. EAN</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>071</KEY>
+       <ENTRY>Tutti i rif. ai fornitori devono</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>072</KEY>
+       <ENTRY>essere canc.! Cancellare EAN?</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>073</KEY>
+       <ENTRY>Mod. EAN</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>074</KEY>
+       <ENTRY>Tutti i rif. ai fornitori devono</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>075</KEY>
+       <ENTRY>essere modificati! Mod. EAN?</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>076</KEY>
+       <ENTRY>Formattato</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>077</KEY>
+       <ENTRY>Le lingue seguenti contengono testi</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>078</KEY>
+       <ENTRY>vuoti che vengono cancellati:</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>079</KEY>
+       <ENTRY>Nessuna lingua agg. (cr. tramite puls. comando)</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>080</KEY>
+       <ENTRY>Stratific. futura</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>081</KEY>
+       <ENTRY>Stratif. corrente</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>082</KEY>
+       <ENTRY>Stratific. passata</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>083</KEY>
+       <ENTRY>Periodo futuro</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>084</KEY>
+       <ENTRY>Per. corrente</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>085</KEY>
+       <ENTRY>Periodo passato</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>086</KEY>
+       <ENTRY>Esercizio futuro</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>087</KEY>
+       <ENTRY>Esercizio corrente</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>088</KEY>
+       <ENTRY>Esercizio passato</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>089</KEY>
+       <ENTRY>Var. valutazione futura</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>090</KEY>
+       <ENTRY>Var. valutazione corrente</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>091</KEY>
+       <ENTRY>Var. valutazione passata</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>092</KEY>
+       <ENTRY>Vers. calcolo costi futura</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>093</KEY>
+       <ENTRY>Vers. calc. costi corrente</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>094</KEY>
+       <ENTRY>Vers. calcolo costi passata</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>095</KEY>
+       <ENTRY>Prz. pian. futuro</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>096</KEY>
+       <ENTRY>Prz. pian. corr.</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>097</KEY>
+       <ENTRY>Prz. pian. passato</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>098</KEY>
+       <ENTRY>Prz. standard futuro</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>099</KEY>
+       <ENTRY>Prz. std. corrente</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>100</KEY>
+       <ENTRY>Prz. standard passato</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>110</KEY>
+       <ENTRY>Copiare i valori sulle</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>111</KEY>
+       <ENTRY>varianti se non esistono</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>112</KEY>
+       <ENTRY>scostamenti?</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>113</KEY>
+       <ENTRY>Adeg. varianti</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>114</KEY>
+       <ENTRY>In caso di &apos;NO&apos; saranno creati scostam.</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>115</KEY>
+       <ENTRY>tra art. collettivo e variante!</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>500</KEY>
+       <ENTRY>Il materiale è bloccato</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>501</KEY>
+       <ENTRY>Il materiale non è bloccato</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>502</KEY>
+       <ENTRY>Selezionare lingua</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>503</KEY>
+       <ENTRY>Lingua</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>504</KEY>
+       <ENTRY>Lingua del testo rappresentato</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>505</KEY>
+       <ENTRY>Chiave di controllo non modificabile</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>506</KEY>
+       <ENTRY>Chiave del testo standard non modificabile</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>507</KEY>
+       <ENTRY>Formula per il calcolo quantità totale non modificabile</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>508</KEY>
+       <ENTRY>Formula per calcolo del val. impiego totale non modificabile</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>509</KEY>
+       <ENTRY>Data di riferimento inizio non modificabile</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>510</KEY>
+       <ENTRY>Inizio scostamento non modificabile</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>511</KEY>
+       <ENTRY>Data di riferimento fine non modificabile</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>512</KEY>
+       <ENTRY>Fine scostamento non modificabile</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>513</KEY>
+       <ENTRY>Testo relativo al codice di controllo</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>514</KEY>
+       <ENTRY>Testo per chiave testo standard</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>515</KEY>
+       <ENTRY>Definizione breve formula per calcolo quantità</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>516</KEY>
+       <ENTRY>Definizione breve formula calcolo valore d&apos;impiego</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>517</KEY>
+       <ENTRY>Testo relativo all&apos;inizio</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>518</KEY>
+       <ENTRY>Testo relativo alla fine</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>519</KEY>
+       <ENTRY>Testo esteso</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>520</KEY>
+       <ENTRY>Lingue aggiornate</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>521</KEY>
+       <ENTRY>Magazzino default per approvvigionamento esterno</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>522</KEY>
+       <ENTRY>Gruppo det. stock</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>523</KEY>
+       <ENTRY>Margine di sic./range di copert.eff.</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>524</KEY>
+       <ENTRY>Classe di valorizzazione per stock ordine cliente</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>525</KEY>
+       <ENTRY>Classe di valorizzazione per stock progetto</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>526</KEY>
+       <ENTRY>Definizione standard</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>527</KEY>
+       <ENTRY>Numero di modifica del documento (senza sistema gestione documenti)</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>528</KEY>
+       <ENTRY>Codice: il materiale è soggetto a sconto merce</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>529</KEY>
+       <ENTRY>Codice: richiesto log partita autorizzato</ENTRY>
+       <LENGTH>65</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>530</KEY>
+       <ENTRY>Profilo di distribuzione del mat. nella divisione</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>531</KEY>
+       <ENTRY>Param. di riapprovv. clienti esterni</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>532</KEY>
+       <ENTRY>Codice merceologico/n.cod.d&apos;importazione per commercio estero</ENTRY>
+       <LENGTH>65</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>533</KEY>
+       <ENTRY>Data di emissione della certificazione negativa</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>534</KEY>
+       <ENTRY>Codice per gestione partite originali</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>535</KEY>
+       <ENTRY>Materiale riferimento per partite originali</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>536</KEY>
+       <ENTRY>Tempo di elaborazione entrata merci (in giorni)</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>537</KEY>
+       <ENTRY>Periodo di compensazione avanti</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>538</KEY>
+       <ENTRY>Fattore conv. pianificazione</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>539</KEY>
+       <ENTRY>Periodo di compensazione indietro</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>540</KEY>
+       <ENTRY>UM di base del materiale di pianificazione</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>541</KEY>
+       <ENTRY>Data di scadenza</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>542</KEY>
+       <ENTRY>Rilevanza pian. MRP per fabbisogni dipendenti</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>543</KEY>
+       <ENTRY>Materiale di riferimento consumo</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>544</KEY>
+       <ENTRY>Div. di riferimento consumo</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>545</KEY>
+       <ENTRY>N. dei valori del passato</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>546</KEY>
+       <ENTRY>Stato materiale specifico divisione</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>547</KEY>
+       <ENTRY>Magazzino produzione</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>548</KEY>
+       <ENTRY>Codice per gestione partite originali</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>549</KEY>
+       <ENTRY>Materiale riferimento per partite originali</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>550</KEY>
+       <ENTRY>Codice: richiesto log partita autorizzato</ENTRY>
+       <LENGTH>65</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>551</KEY>
+       <ENTRY>Limite tolleranza per consegna in difetto</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>552</KEY>
+       <ENTRY>Limite tolleranza per consegna in eccesso</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>553</KEY>
+       <ENTRY>Indicatore: consegna in eccesso illimitata ammessa</ENTRY>
+       <LENGTH>60</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>554</KEY>
+       <ENTRY>Tempo produzione interna</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>555</KEY>
+       <ENTRY>Quantità delle bolle acc. merci da stampare</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>556</KEY>
+       <ENTRY>Forma etichett.</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>557</KEY>
+       <ENTRY>Durata min. residua</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>558</KEY>
+       <ENTRY>Codice periodo per data scadenza</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>559</KEY>
+       <ENTRY>Fattore correzione stock</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>560</KEY>
+       <ENTRY>Distinta base alternativa</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>561</KEY>
+       <ENTRY>Impiego della distinta base</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>562</KEY>
+       <ENTRY>Tipo di approvvigionamento speciale per il calc. costi</ENTRY>
+       <LENGTH>60</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>563</KEY>
+       <ENTRY>Errore di agg. switch logistica</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>564</KEY>
+       <ENTRY>Dati divisione in vers.</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>565</KEY>
+       <ENTRY>Ness.dato div. nelle versioni</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>566</KEY>
+       <ENTRY>Switch agg. (MARC) non esiste</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>567</KEY>
+       <ENTRY>Mancano dati MRP</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>801</KEY>
+       <ENTRY>Mat. fissato</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V02</KEY>
+       <ENTRY>Vers.</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V03</KEY>
+       <ENTRY>MatTest.</ENTRY>
+       <LENGTH>8</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V06</KEY>
+       <ENTRY>SempreValido</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V07</KEY>
+       <ENTRY>Vis. validità</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V08</KEY>
+       <ENTRY>Mod. validità</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V09</KEY>
+       <ENTRY>Definire vers.default</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V10</KEY>
+       <ENTRY>Vis. def.default</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V11</KEY>
+       <ENTRY>Attvo?</ENTRY>
+       <LENGTH>6</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V12</KEY>
+       <ENTRY>Switch logistica att.</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V13</KEY>
+       <ENTRY>Switch logist.non att.</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V14</KEY>
+       <ENTRY>Switch logist.non attivo</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V15</KEY>
+       <ENTRY>Agg. switch logistica</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V16</KEY>
+       <ENTRY>Vis. Agg.switch log.versioni</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>V17</KEY>
+       <ENTRY>Agg. switch log.(op. anonima)</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DYNPROS>
+    <item>
+     <HEADER>
+      <PROGRAM>SAPLZMM_NEW_TAB_FG</PROGRAM>
+      <SCREEN>0001</SCREEN>
+      <LANGUAGE>E</LANGUAGE>
+      <DESCRIPT>Blank Subscreen</DESCRIPT>
+      <TYPE>I</TYPE>
+      <NEXTSCREEN>0000</NEXTSCREEN>
+      <SCREEN_GRP>DATE</SCREEN_GRP>
+      <LINES>021</LINES>
+      <COLUMNS>083</COLUMNS>
+     </HEADER>
+     <CONTAINERS>
+      <RPY_DYCATT>
+       <TYPE>SCREEN</TYPE>
+       <NAME>SCREEN</NAME>
+      </RPY_DYCATT>
+     </CONTAINERS>
+     <FIELDS>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>OKCODE</TYPE>
+       <TEXT>____________________</TEXT>
+       <LENGTH>020</LENGTH>
+       <VISLENGTH>020</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <INPUT_FLD>X</INPUT_FLD>
+      </RPY_DYFATC>
+     </FIELDS>
+     <FLOW_LOGIC>
+      <RPY_DYFLOW>
+       <LINE>PROCESS BEFORE OUTPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*                      Verarbeitung vor der Ausgabe</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>PROCESS AFTER INPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>*                      Verarbeitung nach der Eingabe</LINE>
+      </RPY_DYFLOW>
+     </FLOW_LOGIC>
+    </item>
+    <item>
+     <HEADER>
+      <PROGRAM>SAPLZMM_NEW_TAB_FG</PROGRAM>
+      <SCREEN>0002</SCREEN>
+      <LANGUAGE>E</LANGUAGE>
+      <DESCRIPT>Table Control Definitions: DO NOT DELETE</DESCRIPT>
+      <TYPE>N</TYPE>
+      <NEXTSCREEN>0002</NEXTSCREEN>
+      <LINES>021</LINES>
+      <COLUMNS>083</COLUMNS>
+     </HEADER>
+     <CONTAINERS>
+      <RPY_DYCATT>
+       <TYPE>SCREEN</TYPE>
+       <NAME>SCREEN</NAME>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>TABLE_CTRL</TYPE>
+       <NAME>TC_STEUERN</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>011</LENGTH>
+       <HEIGHT>005</HEIGHT>
+       <C_SCROLL_V>X</C_SCROLL_V>
+       <C_SCROLL_H>X</C_SCROLL_H>
+       <TC_TABTYPE>ENTRY</TC_TABTYPE>
+       <TC_HEADER>X</TC_HEADER>
+       <TC_CONFIG>X</TC_CONFIG>
+       <TC_SEL_LNS>SINGLE</TC_SEL_LNS>
+       <TC_SEL_CLS>SINGLE</TC_SEL_CLS>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>TABLE_CTRL</TYPE>
+       <NAME>TC_VERB</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>001</LINE>
+       <COLUMN>014</COLUMN>
+       <LENGTH>011</LENGTH>
+       <HEIGHT>005</HEIGHT>
+       <C_SCROLL_V>X</C_SCROLL_V>
+       <C_SCROLL_H>X</C_SCROLL_H>
+       <TC_TABTYPE>ENTRY</TC_TABTYPE>
+       <TC_HEADER>X</TC_HEADER>
+       <TC_CONFIG>X</TC_CONFIG>
+       <TC_SEL_LNS>SINGLE</TC_SEL_LNS>
+       <TC_SEL_CLS>SINGLE</TC_SEL_CLS>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>TABLE_CTRL</TYPE>
+       <NAME>TC_KTXT</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>001</LINE>
+       <COLUMN>027</COLUMN>
+       <LENGTH>011</LENGTH>
+       <HEIGHT>005</HEIGHT>
+       <C_SCROLL_V>X</C_SCROLL_V>
+       <C_SCROLL_H>X</C_SCROLL_H>
+       <TC_TABTYPE>ENTRY</TC_TABTYPE>
+       <TC_HEADER>X</TC_HEADER>
+       <TC_CONFIG>X</TC_CONFIG>
+       <TC_SEL_LNS>SINGLE</TC_SEL_LNS>
+       <TC_SEL_CLS>SINGLE</TC_SEL_CLS>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>TABLE_CTRL</TYPE>
+       <NAME>TC_EAN</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>007</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>011</LENGTH>
+       <HEIGHT>005</HEIGHT>
+       <C_SCROLL_V>X</C_SCROLL_V>
+       <C_SCROLL_H>X</C_SCROLL_H>
+       <TC_TABTYPE>ENTRY</TC_TABTYPE>
+       <TC_HEADER>X</TC_HEADER>
+       <TC_CONFIG>X</TC_CONFIG>
+       <TC_SEL_LNS>SINGLE</TC_SEL_LNS>
+       <TC_SEL_CLS>SINGLE</TC_SEL_CLS>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>TABLE_CTRL</TYPE>
+       <NAME>TC_ME_8020</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>007</LINE>
+       <COLUMN>014</COLUMN>
+       <LENGTH>011</LENGTH>
+       <HEIGHT>005</HEIGHT>
+       <C_SCROLL_V>X</C_SCROLL_V>
+       <C_SCROLL_H>X</C_SCROLL_H>
+       <TC_TABTYPE>ENTRY</TC_TABTYPE>
+       <TC_HEADER>X</TC_HEADER>
+       <TC_CONFIG>X</TC_CONFIG>
+       <TC_SEL_LNS>SINGLE</TC_SEL_LNS>
+       <TC_SEL_CLS>SINGLE</TC_SEL_CLS>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>TABLE_CTRL</TYPE>
+       <NAME>TC_ME_8021</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>007</LINE>
+       <COLUMN>027</COLUMN>
+       <LENGTH>011</LENGTH>
+       <HEIGHT>005</HEIGHT>
+       <C_SCROLL_V>X</C_SCROLL_V>
+       <C_SCROLL_H>X</C_SCROLL_H>
+       <TC_TABTYPE>ENTRY</TC_TABTYPE>
+       <TC_HEADER>X</TC_HEADER>
+       <TC_CONFIG>X</TC_CONFIG>
+       <TC_SEL_LNS>SINGLE</TC_SEL_LNS>
+       <TC_SEL_CLS>SINGLE</TC_SEL_CLS>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>TABLE_CTRL</TYPE>
+       <NAME>TC_ME_8022</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>013</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>011</LENGTH>
+       <HEIGHT>004</HEIGHT>
+       <C_SCROLL_V>X</C_SCROLL_V>
+       <C_SCROLL_H>X</C_SCROLL_H>
+       <TC_TABTYPE>ENTRY</TC_TABTYPE>
+       <TC_HEADER>X</TC_HEADER>
+       <TC_CONFIG>X</TC_CONFIG>
+       <TC_SEL_LNS>SINGLE</TC_SEL_LNS>
+       <TC_SEL_CLS>SINGLE</TC_SEL_CLS>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>TABLE_CTRL</TYPE>
+       <NAME>TC_LONGTEXT</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>013</LINE>
+       <COLUMN>014</COLUMN>
+       <LENGTH>011</LENGTH>
+       <HEIGHT>004</HEIGHT>
+       <C_SCROLL_V>X</C_SCROLL_V>
+       <C_SCROLL_H>X</C_SCROLL_H>
+       <TC_TABTYPE>ENTRY</TC_TABTYPE>
+       <TC_HEADER>X</TC_HEADER>
+       <TC_CONFIG>X</TC_CONFIG>
+       <TC_SEL_LNS>SINGLE</TC_SEL_LNS>
+       <TC_SEL_CLS>SINGLE</TC_SEL_CLS>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>TABLE_CTRL</TYPE>
+       <NAME>TC_ME_8024</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>013</LINE>
+       <COLUMN>027</COLUMN>
+       <LENGTH>011</LENGTH>
+       <HEIGHT>004</HEIGHT>
+       <C_SCROLL_V>X</C_SCROLL_V>
+       <C_SCROLL_H>X</C_SCROLL_H>
+       <TC_TABTYPE>ENTRY</TC_TABTYPE>
+       <TC_HEADER>X</TC_HEADER>
+       <TC_CONFIG>X</TC_CONFIG>
+       <TC_SEL_LNS>SINGLE</TC_SEL_LNS>
+       <TC_SEL_CLS>SINGLE</TC_SEL_CLS>
+      </RPY_DYCATT>
+      <RPY_DYCATT>
+       <TYPE>TABLE_CTRL</TYPE>
+       <NAME>TC_SPECIALIZATION</NAME>
+       <ELEMENT_OF>SCREEN</ELEMENT_OF>
+       <LINE>017</LINE>
+       <COLUMN>027</COLUMN>
+       <LENGTH>011</LENGTH>
+       <HEIGHT>004</HEIGHT>
+       <C_SCROLL_V>X</C_SCROLL_V>
+       <C_SCROLL_H>X</C_SCROLL_H>
+       <TC_TABTYPE>ENTRY</TC_TABTYPE>
+       <TC_HEADER>X</TC_HEADER>
+       <TC_CONFIG>X</TC_CONFIG>
+       <TC_SEL_LNS>SINGLE</TC_SEL_LNS>
+       <TC_SEL_CLS>SINGLE</TC_SEL_CLS>
+       <SFW_SWITCHID>DIMP_GENERAL</SFW_SWITCHID>
+       <SFW_SHOWHIDE>D</SFW_SHOWHIDE>
+      </RPY_DYCATT>
+     </CONTAINERS>
+     <FIELDS>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>OKCODE</TYPE>
+       <TEXT>____________________</TEXT>
+       <LENGTH>020</LENGTH>
+       <VISLENGTH>020</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <INPUT_FLD>X</INPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_STEUERN</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-MATNR</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>018</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>2</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_STEUERN</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-MATNR</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>018</LENGTH>
+       <VISLENGTH>018</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <CONV_EXIT>MATN1</CONV_EXIT>
+       <PARAM_ID>MAT</PARAM_ID>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_VERB</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-ERSDA</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>010</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>2</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_VERB</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-ERSDA</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>010</LENGTH>
+       <VISLENGTH>010</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>DATS</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_KTXT</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-ERNAM</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>012</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>2</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_KTXT</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-ERNAM</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>012</LENGTH>
+       <VISLENGTH>012</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_EAN</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-LAEDA</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>010</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>2</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_EAN</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-LAEDA</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>010</LENGTH>
+       <VISLENGTH>010</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>DATS</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_ME_8020</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-AENAM</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>012</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>2</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_ME_8020</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-AENAM</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>012</LENGTH>
+       <VISLENGTH>012</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_ME_8021</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-VPSTA</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>015</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>2</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_ME_8021</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-VPSTA</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>015</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_ME_8022</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>MARA-PSTAT</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>015</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>2</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_ME_8022</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-PSTAT</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>015</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_LONGTEXT</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>*MARA-LVORM</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>001</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <MODIFIC>2</MODIFIC>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+       <DICT_I_VAL>X</DICT_I_VAL>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_LONGTEXT</CONT_NAME>
+       <TYPE>CHECK</TYPE>
+       <NAME>MARA-LVORM</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>001</LENGTH>
+       <VISLENGTH>001</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+       <DICT_I_VAL>X</DICT_I_VAL>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_ME_8024</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>TC_</NAME>
+       <TEXT>Changed_By_____</TEXT>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>015</LENGTH>
+       <VISLENGTH>004</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_ME_8024</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-MTART</NAME>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>004</LENGTH>
+       <VISLENGTH>012</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <PARAM_ID>MTA</PARAM_ID>
+       <FOREIGNKEY>X</FOREIGNKEY>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+       <FIXED_FONT>X</FIXED_FONT>
+       <DICT_I_FKY>X</DICT_I_FKY>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_SPECIALIZATION</CONT_NAME>
+       <TYPE>TEXT</TYPE>
+       <NAME>*MARA-VTYPE</NAME>
+       <TEXT>Vers._Cat._</TEXT>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>011</LENGTH>
+       <VISLENGTH>001</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <REQU_ENTRY>N</REQU_ENTRY>
+       <TC_HEADING>X</TC_HEADING>
+       <SFW_SWITCHID>MGV_LAMA_SCREENS</SFW_SWITCHID>
+       <SFW_SHOWHIDE>D</SFW_SHOWHIDE>
+      </RPY_DYFATC>
+      <RPY_DYFATC>
+       <CONT_TYPE>TABLE_CTRL</CONT_TYPE>
+       <CONT_NAME>TC_SPECIALIZATION</CONT_NAME>
+       <TYPE>TEMPLATE</TYPE>
+       <NAME>MARA-VTYPE</NAME>
+       <ROLLING>X</ROLLING>
+       <LINE>001</LINE>
+       <COLUMN>001</COLUMN>
+       <LENGTH>010</LENGTH>
+       <VISLENGTH>001</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <FROM_DICT>X</FROM_DICT>
+       <FOREIGNKEY>X</FOREIGNKEY>
+       <INPUT_FLD>X</INPUT_FLD>
+       <OUTPUT_FLD>X</OUTPUT_FLD>
+       <DICT_I_FKY>X</DICT_I_FKY>
+       <SFW_SWITCHID>MGV_LAMA_SCREENS</SFW_SWITCHID>
+       <SFW_SHOWHIDE>D</SFW_SHOWHIDE>
+      </RPY_DYFATC>
+     </FIELDS>
+     <FLOW_LOGIC>
+      <RPY_DYFLOW>
+       <LINE>PROCESS BEFORE OUTPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_STEUERN.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_VERB.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_KTXT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_EAN.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_ME_8020.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_ME_8021.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>loop with control tc_me_8022.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>endloop.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>loop with control tc_me_8024.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>endloop.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>loop with control tc_longtext.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>endloop.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>loop with control tc_specialization. &quot;IS2ERP</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>endloop.                             &quot;IS2ERP</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>PROCESS AFTER INPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_STEUERN.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_VERB.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_KTXT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_EAN.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_ME_8020.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>LOOP WITH CONTROL TC_ME_8021.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>ENDLOOP.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>loop with control tc_me_8022.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>endloop.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>loop with control tc_me_8024.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>endloop.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>loop with control tc_longtext.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>endloop.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>loop with control tc_specialization. &quot;IS2ERP</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW>
+       <LINE>endloop.                             &quot;IS2ERP</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW/>
+     </FLOW_LOGIC>
+    </item>
+   </DYNPROS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

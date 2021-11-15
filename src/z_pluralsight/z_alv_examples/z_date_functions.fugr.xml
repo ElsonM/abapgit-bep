@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Custom Date Functions</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ_DATE_FUNCTIONSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ_DATE_FUNCTIONS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_DETERMINE_NAME_OF_THE_DAY_73</FUNCNAME>
+     <SHORT_TEXT>Determine the name of a given day - ABAP 7.3</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>DATE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>D</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>NAME_OF_THE_DAY</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>STRING</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>DATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Input date</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NAME_OF_THE_DAY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Name of the day</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_DETERMINE_NAME_OF_THE_DAY_74</FUNCNAME>
+     <SHORT_TEXT>Determine the name of a given day - ABAP 7.4</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>DATE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>D</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>NAME_OF_THE_DAY</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>DATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Input date</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NAME_OF_THE_DAY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Name of the day</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

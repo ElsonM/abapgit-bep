@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZAOA</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>ABAP Objects Advanced Programming: Messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAOA</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAOA</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Sales order &amp; is locked by another user</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAOA</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Internal error: Lock system failure</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAOA</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Sales order &amp; not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAOA</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Employee ID &amp; not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAOA</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>An employee with ID &amp; already exists!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAOA</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Work hours entered for employee &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAOA</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>No data found matching entered criteria!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAOA</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>No address data for address number &quot;&amp;&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAOA</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Proccesing sales orders and customers .....</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Test</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZCB_FGTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZCB_FG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZCB_FM</FUNCNAME>
+     <SHORT_TEXT>Test Function Module</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_MATNR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>MATNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IM_SPRAS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SPRAS</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_MAKTX</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>MAKTX</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>INVALID_VALUES</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IM_SPRAS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Language Key</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_MAKTX</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material Description (Short Text)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>INVALID_VALUES</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Invalid input values</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,22 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates" xmlns:ddic="http://www.sap.com/abapxml/types/dictionary" xmlns:def="http://www.sap.com/abapxml/types/defined">
+  <tt:root name="CUSTOMERS" type="ddic:ZCUSTOMER_TT"/>
+  <tt:template>
+    <CUSTOMERS>
+      <tt:loop ref=".CUSTOMERS">
+        <CUSTOMER>
+          <tt:cond>
+            <MANDT tt:value-ref="MANDT"/>
+          </tt:cond>
+          <CUSTOMER_ID tt:value-ref="CUSTOMER_ID"/>
+          <FIRST_NAME tt:value-ref="FIRST_NAME"/>
+          <LAST_NAME tt:value-ref="LAST_NAME"/>
+          <MOBILE_PHONE tt:value-ref="MOBILE_PHONE"/>
+          <PERSONAL_EMAIL tt:value-ref="PERSONAL_EMAIL"/>
+          <CURRENT_ADDRESS tt:value-ref="CURRENT_ADDRESS"/>
+          <BIRTH_DATE tt:value-ref="BIRTH_DATE"/>
+        </CUSTOMER>
+      </tt:loop>
+    </CUSTOMERS>
+  </tt:template>
+</tt:transform>

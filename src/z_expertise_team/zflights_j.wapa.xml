@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_WAPA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <ATTRIBUTES>
+    <APPLNAME>ZFLIGHTS_J</APPLNAME>
+    <APPLEXT>ZFLIGHTS_J</APPLEXT>
+    <SECURITY>X</SECURITY>
+    <ORIGLANG>E</ORIGLANG>
+    <MODIFLANG>E</MODIFLANG>
+    <TEXT>Flights - XML</TEXT>
+   </ATTRIBUTES>
+   <PAGES>
+    <item>
+     <ATTRIBUTES>
+      <APPLNAME>ZFLIGHTS_J</APPLNAME>
+      <PAGEKEY>SCHEDULES</PAGEKEY>
+      <PAGENAME>schedules</PAGENAME>
+      <MIMETYPE>application/xml</MIMETYPE>
+      <IS_START_PAGE>X</IS_START_PAGE>
+      <LAYOUTLANGU>E</LAYOUTLANGU>
+      <VERSION>A</VERSION>
+      <LANGU>E</LANGU>
+      <DESCRIPT>Return Flight Schedules in XML Format</DESCRIPT>
+     </ATTRIBUTES>
+     <EVENT_HANDLERS>
+      <O2PAGEVHS>
+       <APPLNAME>ZFLIGHTS_J</APPLNAME>
+       <PAGEKEY>SCHEDULES</PAGEKEY>
+       <EVHANDLER>ONINITIALIZATION</EVHANDLER>
+       <VERSION>A</VERSION>
+       <EVHNAME>OnInitialization</EVHNAME>
+       <SOURCE>
+        <item>* Event Handler for data retrieval</item>
+        <item/>
+        <item>DATA range_cityfrom TYPE RANGE OF s_from_cit.</item>
+        <item>DATA range_cityto   TYPE RANGE OF s_to_city.</item>
+        <item/>
+        <item>IF p_cityfrom IS NOT INITIAL.</item>
+        <item>  range_cityfrom = VALUE #(</item>
+        <item>    (</item>
+        <item>      sign   = &apos;I&apos;</item>
+        <item>      option = &apos;EQ&apos;</item>
+        <item>      low    = p_cityfrom</item>
+        <item>    )</item>
+        <item>  ).</item>
+        <item>ENDIF.</item>
+        <item/>
+        <item>IF p_cityto IS NOT INITIAL.</item>
+        <item>  range_cityto = VALUE #(</item>
+        <item>    (</item>
+        <item>      sign   = &apos;I&apos;</item>
+        <item>      option = &apos;EQ&apos;</item>
+        <item>      low    = p_cityto</item>
+        <item>    )</item>
+        <item>  ).</item>
+        <item>ENDIF.</item>
+        <item/>
+        <item>SELECT * FROM spfli INTO TABLE @DATA(flight_schedules)</item>
+        <item>  WHERE cityfrom IN @range_cityfrom AND</item>
+        <item>        cityto   IN @range_cityto.</item>
+        <item/>
+        <item>DATA(xml_writer) = cl_sxml_string_writer=&gt;create( type = if_sxml=&gt;co_xt_xml10 ).</item>
+        <item/>
+        <item>TRY.</item>
+        <item>    CALL TRANSFORMATION id</item>
+        <item>      SOURCE flightschedules = flight_schedules</item>
+        <item>      RESULT XML xml_writer.</item>
+        <item/>
+        <item>  CATCH cx_xslt_format_error INTO DATA(xslt_format_error).</item>
+        <item>    &quot; error handling</item>
+        <item>ENDTRY.</item>
+        <item/>
+        <item>CALL METHOD response-&gt;if_http_entity~set_data</item>
+        <item>  EXPORTING</item>
+        <item>    data = xml_writer-&gt;get_output( ).</item>
+       </SOURCE>
+      </O2PAGEVHS>
+     </EVENT_HANDLERS>
+     <PARAMETERS>
+      <O2PAGPARS>
+       <APPLNAME>ZFLIGHTS_J</APPLNAME>
+       <PAGEKEY>SCHEDULES</PAGEKEY>
+       <COMPNAME>P_CITYFROM</COMPNAME>
+       <VERSION>A</VERSION>
+       <TYPTYPE>1</TYPTYPE>
+       <TYPE>S_FROM_CIT</TYPE>
+       <ALIASNAME>P_CITYFROM</ALIASNAME>
+       <TEXT>Departure city</TEXT>
+      </O2PAGPARS>
+      <O2PAGPARS>
+       <APPLNAME>ZFLIGHTS_J</APPLNAME>
+       <PAGEKEY>SCHEDULES</PAGEKEY>
+       <COMPNAME>P_CITYTO</COMPNAME>
+       <VERSION>A</VERSION>
+       <TYPTYPE>1</TYPTYPE>
+       <TYPE>S_TO_CITY</TYPE>
+       <ALIASNAME>P_CITYTO</ALIASNAME>
+       <TEXT>Arrival city</TEXT>
+      </O2PAGPARS>
+     </PARAMETERS>
+    </item>
+   </PAGES>
+  </asx:values>
+ </asx:abap>
+</abapGit>
